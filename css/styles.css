@@ -114,6 +114,7 @@ ol {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-menu-list {
@@ -205,6 +206,7 @@ border-radius: 2px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-wrap {
@@ -727,3 +729,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   transform: translateY(0);
 }
 
+.offers-link:focus .offers-cover-text {
+  transform: translateY(0);
+}
