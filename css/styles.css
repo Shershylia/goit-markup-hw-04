@@ -726,5 +726,9 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .offers-link:hover .offers-cover-text {
-  transform: translateY(0%);
+  transform: translateY(0);
+}
+
+.offers-link:focus .offers-cover-text {
+  transform: translateY(0);
 }
